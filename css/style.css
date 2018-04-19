@@ -1,0 +1,15 @@
+.images>img{
+    height: 400px;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+    transition:transform 1s;
+}
+.window{
+    width: 712px;
+    overflow: hidden;
+}
+.aqua{
+    background-color: aqua;
+}
