@@ -4,7 +4,7 @@ for(var i=0;i<btns.length;i++){
       var btn=$(x.currentTarget)
       var index=btn.index()
         $("#images").css({
-            transform: "translateX("+(-712*index)+"px)"
+            transform: "translateX("+(-920*index)+"px)"
         })
         n=index
     activeButton(btns.eq(n))
@@ -20,7 +20,7 @@ function setTimer(){
     return setInterval(function () {
         n+=1
         activeButton(btns.eq(n%times).trigger("click"))
-    },2000)
+    },4000)
 }
 $("#window").on("mouseenter",function () {
     window.clearInterval(timer)
